@@ -1,0 +1,149 @@
+@media (max-width: 768px) {
+    .header-img {
+        display: block;
+        margin: 0 auto; /* Centra la imagen horizontalmente */
+        max-width: 100%; /* Aumenta el tamaño máximo de la imagen */
+        width: 200%; /* Ajusta el ancho de la imagen */
+        height: auto; /* Mantiene la proporción de la imagen */
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 15em;
+        padding-bottom: 1em;
+    }
+}
+
+
+
+@media (max-width: 768px) { 
+    nav { flex-direction: column; /* Cambia a una dirección vertical */ 
+        align-items: center; /* Centra los elementos dentro del menú */ 
+        justify-content: center; /* Asegura que los elementos estén centrados verticalmente */ 
+        padding: 1em 0; /* Añadir un poco de padding para mejorar la apariencia */ }
+        nav ul {
+            display: flex;
+            gap: 5%;
+            padding: 0;
+        }
+        
+        nav ul li a {
+            color: #4caf50;
+            text-decoration: none;
+            font-family: "Bebas Neue", sans-serif;
+            font-size: 1.2em;
+        }
+        
+        nav ul li a:hover {
+            background-color: #00132944;
+        }
+    }
+        /* Estilos para dispositivos móviles */
+        @media (max-width: 768px) {
+            .about-content {
+                flex-direction: column;
+                align-items: center;
+            }
+        
+            .about-img {
+                margin: 2em 0;
+                max-height: 300%;
+                max-width: 300%; /* Imagen ocupa todo el ancho en móviles */
+                width: 20em;
+            }
+        
+            .about-text {
+                padding-right: 0;
+                text-align: center; /* Centra el texto en móviles */
+            }
+        }
+        
+
+@media (max-width: 768px) {
+    #social {
+        font-family: Verdana, sans-serif;
+        padding: 4em 1em;
+        background-color: #001329;
+        color: #eaeaea;
+        border-radius: 5px;
+        margin: 2em 0;
+        padding-top: 9em;
+    }
+    
+    .redsocial {
+        text-align: center;
+        margin-top: 1rem;
+    }
+    
+    .redsocial .iconos {
+        display: flex;
+        justify-content: center;
+        gap: 10px; /* Reduce el espacio entre los iconos */
+        flex-wrap: wrap; /* Permite que los iconos se envuelvan en múltiples filas si es necesario */
+    }
+    
+    .redsocial .iconos a img {
+        border-radius: 50%;
+        border: 2px solid #4caf50;
+        transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+    
+    .redsocial .iconos a img:hover {
+        transform: scale(1.2);
+        border-color: #388e3c;
+    }
+
+    .contactanos {
+        text-align: center;
+    }
+
+    #social form {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 0 1em;
+    }
+
+    input, textarea {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 1em; /* Añade margen inferior a los inputs para mejorar la apariencia */
+    }
+
+    button {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+.social-img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    align-items: center;
+}
+}
+    
+    
+
+
+@media (max-width: 768px) {
+    .subtitle {
+        font-family: "Doto", serif;
+        width: 50%;
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    section {
+        padding-top: 9em; 
+        padding-bottom: 1em;/* Ajusta este valor según la altura de tu encabezado */
+        margin-top: -10em; /* Ajusta este valor según la altura de tu encabezado */
+        font-family: Verdana, sans-serif;
+        font-size: 1.1em;
+        line-height: 1.6;
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
